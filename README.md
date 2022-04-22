@@ -58,7 +58,7 @@ Third "=." indicatis output file(chatServer_pb2_rpc.py) location.
 ### Server
 `server.py`</br>
 Detail Python code can reference it.([server.py](https://github.com/YMont/gRPC_chat-service/blob/main/server.py))</br>
-And one point is server connection(localhost), then using class \_\_init\_\_ can auto receive client session among communication.</br>
+And one point is server connection(localhost), then using class \_\_init\_\_ can receive client session automatically among communication.</br>
 Also, server provide two function for client using, one is **ChatStream**, another is **SendNote**.</br>
 Thus, `python server.py`(command)</br>
 Or you can open this Python file and push **F5** execute it.</br>
